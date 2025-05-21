@@ -1,0 +1,33 @@
+h1{
+    text-align: center;    
+}
+.p1{
+    display: flex;
+}
+.dec-main{
+   max-width: 50%; 
+   margin-left: 100px;
+   font-size: 20px;
+   text-align: justify;
+   margin-right: 50px;
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.servicos{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.servicos li{
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 14px;
+    box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, 0.534);
+    
+}
+.des1{
+    font-size: 18px;
+}
