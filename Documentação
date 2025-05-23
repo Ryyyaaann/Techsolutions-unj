@@ -1,0 +1,97 @@
+Esta documentação explica as escolhas de estrutura HTML e formatação CSS para o site da TechSolutions, uma startup de soluções tecnológicas.
+
+Estrutura HTML
+1. Layout Semântico
+  <header>: Contém o título principal da empresa, destacando a marca.
+  
+  <section>: Divide o conteúdo principal em duas partes:
+  
+    Descrição da empresa
+    
+    Lista de serviços oferecidos
+  
+  <aside>: Apresenta informações complementares (equipe)
+  
+  <footer>: Fixo no rodapé com links de contato e redes sociais
+
+2. Organização de Conteúdo
+  Flexbox: Uso consistente de display: flex para alinhamento responsivo
+  
+  Listas:
+  
+    Serviços como lista ordenada (<ol>) com estilização personalizada
+    
+    Rodapé com links como lista não ordenada sem marcadores
+
+3. Hierarquia Visual
+  Títulos (<h1>, <h2>) para destacar seções importantes
+  
+  Texto principal com tamanho aumentado (20px) para melhor legibilidade
+  
+  Estilização CSS
+1. Design Responsivo
+  Margens laterais no body para evitar conteúdo colado nas bordas
+  
+  Largura máxima de 50% para o texto descritivo
+  
+  Imagem com altura automática para manter proporções
+
+2. Elementos Visuais
+  Cards de serviços:
+  
+    Fundo cinza claro (rgb(247, 247, 247))
+    
+    Sombras (box-shadow) para efeito 3D
+    
+    Bordas arredondadas (border-radius)
+  
+    Espaçamento interno generoso (padding: 30px)
+  
+  Rodapé fixo:
+  
+    Posicionamento fixo na parte inferior
+    
+    Fundo preto com texto branco para contraste
+    
+    Links coloridos (#4d7ace) para melhor visibilidade
+
+3. Tipografia
+  Peso de fonte (font-weight: 550) para ênfase
+  
+  Tamanhos consistentes (16px para links, 18-20px para conteúdo principal)
+  
+  Texto justificado na descrição principal
+  
+  Justificativa das Escolhas
+Experiência do Usuário:
+
+  Rodapé fixo permite acesso fácil a contatos em qualquer ponto da página
+  
+  Espaçamento generoso melhora a legibilidade
+  
+  Cores neutras com pontos de destaque criam hierarquia visual
+  
+  Profissionalismo:
+  
+  Design limpo e organizado transmessa credibilidade
+  
+  Cards com sombra dão sensação de interatividade
+  
+  Alinhamento consistente cria harmonia visual
+
+Manutenibilidade:
+
+  Classes semânticas facilitam edições futuras
+  
+  Estilos reutilizáveis (como os cards de serviços)
+  
+  Separação clara entre estrutura e apresentação
+
+Melhorias Potenciais:
+  Adicionar media queries para responsividade em telas menores
+  
+  Incluir hover effects nos links e cards para melhor interatividade
+  
+  Otimizar o contraste de cores para acessibilidade
+  
+  Implementar sistema de grid para layouts mais complexos
