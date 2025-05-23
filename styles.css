@@ -25,9 +25,64 @@ body{
     padding: 30px;
     background-color: rgb(247, 247, 247);
     border-radius: 14px;
-    box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, 0.534);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
     
 }
 .des1{
     font-size: 18px;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: #4d7ace;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.footer-link {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    justify-content: center;
+    
+}
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 100; 
+}
+.contato-footer{
+    color: #ffffff;
+    text-align: center;
+}
+.contato-footer ol{
+    font-size: 16px;
+    font-weight: 550;
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+    list-style: none;
+    position: relative;
+    justify-content: center;
+    right: 20px;
+}
+.func{
+    margin-top: 75px;
+    width: auto;
+    background-color: rgb(247, 247, 247);
+    height:100px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+.func p{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
 }
